@@ -5,6 +5,9 @@
 #include "world.h"
 #include "chunk.h"
 
+Chunk** world;
+bool pending_mesh[WSIZE][16][WSIZE];
+
 int world_chunk_coord(int v){
     return v/16;
 }

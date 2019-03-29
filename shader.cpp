@@ -12,13 +12,20 @@ Shader shader_new(const std::string& name) {
         std::cout << "FILE " << vertFileName << " NOT FOUND.\n";
         exit(EXIT_FAILURE);
     }
-
-    vertFile.seekg(0, std::fstream::end);
-    size_t vertBytes = (size_t) vertFile.tellg();
+//
+//    vertFile.seekg(0, std::fstream::end);
+//    size_t vertBytes = (size_t) vertFile.tellg();
     vertFile.seekg(0, std::fstream::beg);
-    char* vertCode = (char*) calloc(vertBytes, sizeof(char));
-    vertFile.get(vertCode, vertBytes);
+    std::stringstream vertBuffer;
+    vertBuffer << vertFile.rdbuf();
+
+    std::string vertCode = vertBuffer.str();
+
     vertFile.close();
+
+//    std::cout << vertCode;
+    
+    const char* tempVert = vertCode.c_str();
 
 
     std::string fragFileName = "../shaders/" + name + ".frag";
@@ -28,19 +35,24 @@ Shader shader_new(const std::string& name) {
         exit(EXIT_FAILURE);
     }
 
-    fragFile.seekg(0, std::fstream::end);
-    size_t fragBytes = (size_t) fragFile.tellg();
     fragFile.seekg(0, std::fstream::beg);
-    char* fragCode = (char*) calloc(fragBytes, sizeof(char));
-    fragFile.get(fragCode, fragBytes);
+    std::stringstream fragBuffer;
+    fragBuffer << fragFile.rdbuf();
+
+    std::string fragCode = fragBuffer.str();
+
     fragFile.close();
+
+//    std::cout << fragCode;
+
+    const char* tempFrag = fragCode.c_str();
 
 
     Shader shader = glCreateProgram();
 
 
     GLuint vert = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vert, 1, &vertCode, nullptr);
+    glShaderSource(vert, 1, &tempVert, nullptr);
     glCompileShader(vert);
     GLint vertSuccess;
     glGetShaderiv(vert, GL_COMPILE_STATUS, &vertSuccess);
@@ -55,7 +67,7 @@ Shader shader_new(const std::string& name) {
 
 
     GLuint frag = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(frag, 1, &fragCode, nullptr);
+    glShaderSource(frag, 1, &tempFrag, nullptr);
     glCompileShader(frag);
     GLint fragSuccess;
     glGetShaderiv(frag, GL_COMPILE_STATUS, &fragSuccess);
@@ -73,8 +85,8 @@ Shader shader_new(const std::string& name) {
     glAttachShader(shader, frag);
     glLinkProgram(shader);
 
-    free(vertCode);
-    free(fragCode);
+//    free(vertCode);
+//    free(fragCode);
     return shader;
 }
 
@@ -82,18 +94,18 @@ void shader_bind(Shader shader) {
     glUseProgram(shader);
 }
 
-void shader_set_1f(Shader sh, char* name, float x) {
-    glUniform1f(glGetUniformLocation(sh, name), x);
+void shader_set_1f(Shader sh, std::string name, float x) {
+    glUniform1f(glGetUniformLocation(sh, name.c_str()), x);
 }
 
-void shader_set_3f(Shader sh, char* name, float x, float y, float z) {
-    glUniform3f(glGetUniformLocation(sh, name), x, y, z);
+void shader_set_3f(Shader sh, std::string name, float x, float y, float z) {
+    glUniform3f(glGetUniformLocation(sh, name.c_str()), x, y, z);
 }
 
-void shader_set_1i(Shader sh, char* name, int x) {
-    glUniform1i(glGetUniformLocation(sh, name), x);
+void shader_set_1i(Shader sh, std::string name, int x) {
+    glUniform1i(glGetUniformLocation(sh, name.c_str()), x);
 }
 
-void shader_set_4x4f(Shader sh, char* name, mat4x4 m) {
-    glUniformMatrix4fv(glGetUniformLocation(sh, name), 1, GL_FALSE, (const GLfloat*) m);
+void shader_set_4x4f(Shader sh, std::string name, mat4x4 m) {
+    glUniformMatrix4fv(glGetUniformLocation(sh, name.c_str()), 1, GL_FALSE, (const GLfloat*) m);
 }

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLMC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLMC">
+				<Option output="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/GLMC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/proc-daemon/Minecraft/minecraft-plus-plus/glad"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLMC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLMC/fast">
+				<Option output="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/GLMC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/proc-daemon/Minecraft/minecraft-plus-plus/glad"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLMC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/proc-daemon/Minecraft/minecraft-plus-plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/block.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/block.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/camera.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/camera.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/chunk.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/chunk.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/chunk_mesher.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/chunk_mesher.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/config.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/entity.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/entity.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/gl.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/gl.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/glad.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/glad.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/input.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/input.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/lights.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/lights.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/linmath.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/main.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/mesh.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/mesh.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/perlin.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/perlin.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/physics.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/physics.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/raycast.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/raycast.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/shader.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/shader.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/stb_image.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/texture.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/texture.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/utils.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/utils.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/window.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/window.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/world.cpp">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/world.h">
+			<Option target="GLMC"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/proc-daemon/Minecraft/minecraft-plus-plus/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -3,6 +3,7 @@
 //
 
 #include "window.h"
+GLFWwindow* window;
 float window_aspect;
 float window_mouse_x;
 float window_mouse_y;

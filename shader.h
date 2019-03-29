@@ -9,6 +9,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <sstream>
 #include <memory.h>
 #include "linmath.h"
 

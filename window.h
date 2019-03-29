@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-GLFWwindow* window;
+extern GLFWwindow* window;
 extern float window_aspect;
 extern float window_mouse_x;
 extern float window_mouse_y;

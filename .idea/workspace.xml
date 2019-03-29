@@ -5,66 +5,72 @@
       <config projectName="GLMC" targetName="GLMC" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe0cbe4-2da3-4ba0-9e03-bfd54a968fb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/minecraft-plus-plus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chunk.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chunk.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chunk_mesher.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chunk_mesher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glad.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glad.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/khrplatform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lights.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lights.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linmath.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mesh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mesh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perlin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perlin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physics.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physics.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raycast.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raycast.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaders/chunk.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaders/chunk.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaders/sel-block.frag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaders/sel-block.vert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stb_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/texture.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/texture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/atlas-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/terrain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/world.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/world.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLMC.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/GLMC.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.c" beforeDir="false" afterPath="$PROJECT_DIR$/block.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera.c" beforeDir="false" afterPath="$PROJECT_DIR$/camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunk.c" beforeDir="false" afterPath="$PROJECT_DIR$/chunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunk_mesher.c" beforeDir="false" afterPath="$PROJECT_DIR$/chunk_mesher.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity.c" beforeDir="false" afterPath="$PROJECT_DIR$/entity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gl.c" beforeDir="false" afterPath="$PROJECT_DIR$/gl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glad.c" beforeDir="false" afterPath="$PROJECT_DIR$/glad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.c" beforeDir="false" afterPath="$PROJECT_DIR$/input.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lights.c" beforeDir="false" afterPath="$PROJECT_DIR$/lights.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lights.h" beforeDir="false" afterPath="$PROJECT_DIR$/lights.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh.c" beforeDir="false" afterPath="$PROJECT_DIR$/mesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perlin.c" beforeDir="false" afterPath="$PROJECT_DIR$/perlin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physics.c" beforeDir="false" afterPath="$PROJECT_DIR$/physics.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raycast.c" beforeDir="false" afterPath="$PROJECT_DIR$/raycast.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texture.c" beforeDir="false" afterPath="$PROJECT_DIR$/texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window.c" beforeDir="false" afterPath="$PROJECT_DIR$/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world.c" beforeDir="false" afterPath="$PROJECT_DIR$/world.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world.h" beforeDir="false" afterPath="$PROJECT_DIR$/world.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,10 +86,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.c">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            <state relative-caret-position="149">
+              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
               </folding>
@@ -94,26 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shader.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/stdlib.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="540" column="13" selection-start-line="540" selection-start-column="13" selection-end-line="540" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/stdio.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="214">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -121,8 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shader.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="313">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#93#108#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,8 +121,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world.cpp">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -142,9 +151,27 @@
     <findStrings>
       <find>char *</find>
       <find>char \*</find>
+      <find>vert</find>
+      <find>malloc</find>
+      <find>calloc</find>
+      <find>NULL</find>
+      <find>#include &lt;([a-z]+)\.h&gt;</find>
+      <find>false</find>
+      <find>true</find>
+      <find>.c</find>
+      <find>\.c</find>
+      <find>char\*</find>
+      <find>, name</find>
     </findStrings>
     <replaceStrings>
+      <replace>frag</replace>
+      <replace>nullptr</replace>
+      <replace>#include &lt;c$1&gt;</replace>
+      <replace>0</replace>
+      <replace>1</replace>
+      <replace>.cpp</replace>
       <replace>std::string</replace>
+      <replace>, name.c_str()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -155,8 +182,16 @@
       <list>
         <option value="$PROJECT_DIR$/shaders/sel-block.vert" />
         <option value="$PROJECT_DIR$/shader.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/shader.h" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/world.cpp" />
+        <option value="$PROJECT_DIR$/world.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lights.h" />
+        <option value="$PROJECT_DIR$/lights.cpp" />
+        <option value="$PROJECT_DIR$/window.h" />
+        <option value="$PROJECT_DIR$/window.cpp" />
         <option value="$PROJECT_DIR$/shader.cpp" />
       </list>
     </option>
@@ -200,6 +235,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
@@ -235,12 +273,20 @@
       <updated>1553877489759</updated>
       <workItem from="1553877491354" duration="48000" />
       <workItem from="1553877540733" duration="207000" />
-      <workItem from="1553877820154" duration="1115000" />
+      <workItem from="1553877820154" duration="2700000" />
     </task>
+    <task id="LOCAL-00001" summary="redid shader">
+      <created>1553879150195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553879150195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1370000" />
+    <option name="totallyTimeSpent" value="2955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,11 +314,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Tool Output" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="CMake" order="14" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="CMake" order="14" weight="0.32841823" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,6 +327,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="redid shader" />
+    <option name="LAST_COMMIT_MESSAGE" value="redid shader" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -319,33 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glad.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="113" column="20" lean-forward="true" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
-          <folding>
-            <element signature="e#2593#2619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/features.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1260" />
@@ -358,24 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/stdlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="540" column="13" selection-start-line="540" selection-start-column="13" selection-end-line="540" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -386,10 +396,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/glad.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#752#880#0" expanded="true" />
+            <element signature="e#2593#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lights.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lights.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#93#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="214">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>

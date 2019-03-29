@@ -10,8 +10,8 @@
 #include <time.h>
 
 //Chunk world[WSIZE][WSIZE];
-Chunk**world;
-bool pending_mesh[WSIZE][16][WSIZE];
+extern Chunk** world;
+extern bool pending_mesh[WSIZE][16][WSIZE];
 
 int world_chunk_coord(int v);
 int pos_in_chunk(int v);

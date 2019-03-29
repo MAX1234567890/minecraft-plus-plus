@@ -5,11 +5,11 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_MODULE_PATH /usr/local/lib/cmake)
 set(CMAKE_PREFIX_PATH /usr/local/lib/cmake/glfw3)
 
-set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_COMPILER clang++)
 
-find_package (PkgConfig REQUIRED)
-find_package (OpenGL REQUIRED)
-find_package (glfw3 REQUIRED)
+find_package(PkgConfig REQUIRED)
+find_package(OpenGL REQUIRED)
+find_package(glfw3 REQUIRED)
 
 include_directories(/usr/local/include glad)
 include_directories(${GLFW_INCLUDE_DIRS})
@@ -20,14 +20,14 @@ link_libraries(dl)
 #find_library(IOKIT_LIBRARY IOKit REQUIRED)
 #find_library(COREVID_LIBRARY CoreVideo REQUIRED)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(GLMC main.c glad.c linmath.h window.c window.h shader.cpp shader.h mesh.c mesh.h gl.h input.c input.h stb_image.h texture.c texture.h gl.c block.h chunk.h chunk.c chunk_mesher.c chunk_mesher.h world.c world.h camera.c camera.h config.h perlin.h perlin.c physics.c physics.h block.c entity.c entity.h utils.c utils.h raycast.c raycast.h lights.c lights.h)
-target_link_libraries (GLMC
+add_executable(GLMC main.cpp glad.cpp linmath.h window.cpp window.h shader.cpp shader.h mesh.cpp mesh.h gl.h input.cpp input.h stb_image.h texture.cpp texture.h gl.cpp block.h chunk.h chunk.cpp chunk_mesher.cpp chunk_mesher.h world.cpp world.h camera.cpp camera.h config.h perlin.h perlin.cpp physics.cpp physics.h block.cpp entity.cpp entity.h utils.cpp utils.h raycast.cpp raycast.h lights.cpp lights.h)
+target_link_libraries(GLMC
         ${OPENGL_LIBRARIES}
-#        ${COCOA_LIBRARY}
-#        ${COREVID_LIBRARY}
-#        ${IOKIT_LIBRARY}
+        #        ${COCOA_LIBRARY}
+        #        ${COREVID_LIBRARY}
+        #        ${IOKIT_LIBRARY}
         ${GLFW3_LIBRARY}
         glfw)
 
